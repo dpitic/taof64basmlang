@@ -1,4 +1,4 @@
-include kernel32.lib
+includelib kernel32.lib
 
 		extrn	__imp_GetStdHandle:proc
 		extrn	__imp_WriteFile:proc
@@ -45,4 +45,4 @@ main	PROC
 		add		rsp, 38h		; Clean up stack (30h + 8 bytes)
 		ret
 main	ENDP
-		END	main
+		END

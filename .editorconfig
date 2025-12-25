@@ -1,0 +1,7 @@
+#
+# Visual Studio Code Editor Configuration File
+#
+
+# All files
+[*]
+guidelines = 80
